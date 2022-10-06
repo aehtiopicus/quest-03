@@ -19,11 +19,13 @@
 
 
 
+
 export interface Card4Props {
   className?: any;
   testprop1: any;
   testprop2: any;
 };
+
 
 
 
@@ -43,6 +45,7 @@ export interface MeetingListItemProps {
 
 
 
+
 export interface Dashboard1Props {
   className?: any;
 };
@@ -53,9 +56,11 @@ export interface Dashboard1Props {
 
 
 
+
 export interface Frame1Props {
   className?: any;
 };
+
 
 
 
@@ -74,9 +79,11 @@ export interface CancelAccountProps {
 
 
 
+
 export interface OtherComProps {
   className?: any;
 };
+
 
 
 
