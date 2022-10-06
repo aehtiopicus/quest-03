@@ -121,11 +121,30 @@ const Frame5: any = styled("div")({
   flexDirection: `row`,  
   justifyContent: `flex-start`,  
   alignItems: `flex-start`,  
+  padding: `0px`,  
+  boxSizing: `border-box`,  
   width: `321px`,  
   height: `209px`,  
   left: `488px`,  
   top: `196px`,  
   overflow: `hidden`,  
+});
+  
+const EstoNoEsFont: any = styled("div")({  
+  textAlign: `right`,  
+  whiteSpace: `pre-wrap`,  
+  color: `rgba(0, 0, 0, 1)`,  
+  fontStyle: `normal`,  
+  fontFamily: `Supermercado`,  
+  fontWeight: `400`,  
+  fontSize: `12px`,  
+  letterSpacing: `0.4000000059604645px`,  
+  textDecoration: `none`,  
+  lineHeight: `165.9999966621399%`,  
+  textTransform: `lowercase`,  
+  position: `absolute`,  
+  left: `-16px`,  
+  top: `27px`,  
 });
   
 const Lato: any = styled("div")({  
@@ -349,6 +368,10 @@ function Frame1(props: Frame1Props): JSX.Element {
 `}
             </Hola>
         <Frame5 >
+          <EstoNoEsFont >
+            {`esto no es font
+`}
+              </EstoNoEsFont>
         </Frame5>
         <Lato >
           {`lato`}
