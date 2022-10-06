@@ -14,7 +14,7 @@
 
 import React from 'react';
 import { Avatar, Button, Switch, FormControlLabel, TextField } from '@mui/material';
-import Avatar1Image from 'src/assets/images/demotestframe1_Avatar_3.png';
+import Avatar1Image from 'src/assets/images/demotestframe1_Avatar.png';
 import { styled } from '@mui/material/styles';
 import DemoTestFrame2 from 'src/components/DemoTestFrame2/DemoTestFrame2';
 import { Frame1Props } from 'src/types';
@@ -265,7 +265,7 @@ const Roboto1: any = styled("div")({
 });
   
 const Lato2: any = styled("div")({  
-  textAlign: `center`,  
+  textAlign: `right`,  
   whiteSpace: `pre-wrap`,  
   color: `rgba(0, 0, 0, 1)`,  
   fontStyle: `normal`,  
@@ -273,7 +273,7 @@ const Lato2: any = styled("div")({
   fontWeight: `400`,  
   fontSize: `12px`,  
   letterSpacing: `0.4000000059604645px`,  
-  textDecoration: `none`,  
+  textDecoration: `line-through`,  
   lineHeight: `165.9999966621399%`,  
   textTransform: `lowercase`,  
   position: `absolute`,  
